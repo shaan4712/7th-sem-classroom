@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.address a {
+    color: blue;
+    text-decoration: none;
+}
+
+.address a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"], input[type="tel"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+.address-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.office, .residence {
+    width: 45%;
+}
+
+.office h3, .residence h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
+.photo label {
+    font-weight: bold;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}

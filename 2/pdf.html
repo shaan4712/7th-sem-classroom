@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="pdf.css">
+</head>
+<body>
+    <div class="container">
+        <h1>THE INSTITUTION OF ELECTRONICS AND TELECOMMUNICATION ENGINEERS</h1>
+        <p class="address">
+            IETE BUILDING, BELLARY ROAD,<br>
+            GANGANAGAR EXTENSION, BANGALORE-560032<br>
+            Ph.: 23331133 Telefax : 2333 7231<br>
+            Email : <a href="mailto:bangalore@iete.org">bangalore@iete.org</a> / web: <a href="http://www.ieteblr.in" target="_blank">www.ieteblr.in</a>
+        </p>
+        <h2><u>APPLICATION / DATA SHEET</u></h2>
+        <form>
+            <label for="course">Name of the course(s) opted:</label>
+            <input type="text" id="course" name="course"><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="name">Students name (in capitals):</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <div class="address-section">
+                <div class="office">
+                    <h3>OFFICE</h3>
+                    <label for="office-address">Address (in capitals):</label>
+                    <textarea id="office-address" name="office-address"></textarea><br><br>
+                    <label for="office-pin">Pin:</label>
+                    <input type="text" id="office-pin" name="office-pin"><br><br>
+                    <label for="phone-office">Phone Off:</label>
+                    <input type="tel" id="phone-office" name="phone-office"><br><br>
+                    <label for="mobile">Mobile No.:</label>
+                    <input type="tel" id="mobile" name="mobile"><br><br>
+                </div>
+
+                <div class="residence">
+                    <h3>RESIDENCE</h3>
+                    <label for="residence-address">Address (in capitals):</label>
+                    <textarea id="residence-address" name="residence-address"></textarea><br><br>
+                    <label for="residence-pin">Pin:</label>
+                    <input type="text" id="residence-pin" name="residence-pin"><br><br>
+                    <label for="phone-residence">Phone Res:</label>
+                    <input type="tel" id="phone-residence" name="phone-residence"><br><br>
+                    <label for="email">e-mail:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                </div>
+            </div>
+
+            <label for="organization">Organisation:</label>
+            <input type="text" id="organization" name="organization"><br><br>
+
+            <div class="photo">
+                <label for="photo">Affix Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
